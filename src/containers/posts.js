@@ -19,7 +19,7 @@ const Posts=() => {
            
     }, []);
 
-    const postsFin = post.map(ig =>{ return <Post key={ig.id} title={ig.title} body={ig.body} img={ig.url} /> ;});
+    const postsFin = post.map(ig =>{ return <Post key={ig.id} title={ig.title} body={ig.body}/> ;});
     return (
         <div>
          {postsFin}
