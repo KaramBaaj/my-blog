@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  display: inline-block;
+}
+
+.Blog nav {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+
+.Blog nav ul {
+  text-align: center;
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  float: right;
+}
+
+.Blog nav li {
+  display: inline;
+}
+
+.Blog nav a {
+  color: #f2f2f2;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.Blog nav a:hover {
+  background-color: #111;
+}
+
+.content {
+  text-align: center;
+}
+
+.post {
+  width: 300px;
+  text-align: center;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 0 2px 3px #ccc;
+          box-shadow: 0 2px 3px #ccc;
+  margin: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  background-color: #7c9170;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.post:hover {
+  background-color: #88af78;
+}
+
+.post h1 {
+  padding: 10px;
+  margin: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.Posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+/*# sourceMappingURL=main.css.map */
