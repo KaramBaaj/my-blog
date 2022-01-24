@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    display: inline-block;
+}
+
+.Blog {
+    nav {
+        overflow: hidden;
+        background-color: #333;
+        top: 0;
+        width: 100%;
+        ul {
+            text-align: center;
+            list-style-type: none;
+            list-style-type: none;
+            margin: 0;
+            padding: 15px;
+            float: right;
+        }
+      
+        li { display: inline; }
+      
+        a {
+          color: #f2f2f2;
+          padding: 6px 12px;
+          text-decoration: none;
+          &:hover {
+            background-color: #111;}
+        }
+      
+
+        
+    }
+}
+.content {
+    text-align: center;
+
+}

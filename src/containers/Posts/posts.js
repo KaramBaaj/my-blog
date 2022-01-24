@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import axios from 'axios';
-import Post from '../component/post';
+import Post from '../../component/Post/post';
 
 
 const Posts=() => {
@@ -21,7 +21,7 @@ const Posts=() => {
 
     const postsFin = post.map(ig =>{ return <Post key={ig.id} title={ig.title} body={ig.body} img={ig.url} /> ;});
     return (
-        <div>
+        <div className='Posts'>
          {postsFin}
         </div>);
 }

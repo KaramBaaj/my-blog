@@ -1,0 +1,23 @@
+.post{
+    width: 300px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: rgb(124, 145, 112);
+    border-radius: 10px;
+    height: 300px;
+
+    &:hover{
+        background-color: rgb(136, 175, 120);
+    }
+
+    h1 {
+        padding: 10px;
+        margin: auto;
+        text-overflow:ellipsis ;
+        overflow: hidden;
+    }
+}

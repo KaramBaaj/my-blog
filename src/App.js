@@ -1,14 +1,20 @@
 import React  from 'react';
-import Posts from './containers/posts';
+import Blog from './containers/Blog';
+import {BrowserRouter} from 'react-router-dom'
+
 
 
 
 
 function app() {
   return (
-    <div>
-      <Posts />
-    </div> );
+    <BrowserRouter>    
+      <div>
+        <Blog />
+      </div> 
+    </BrowserRouter>
+
+    );
 }
 
 export default app;
