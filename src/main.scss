@@ -4,3 +4,16 @@
 
 @import './Sass/Posts';
 
+@import './Sass/fullPost';
+
+@import './Sass/comments';
+
+@import './Sass/new-post';
+
+html { 
+    background: url("./assest/images/cool-background.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
