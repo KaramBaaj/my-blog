@@ -30,13 +30,14 @@ const Posts=() => {
 
     const clickedFullPostHandler = () => {
         setIsClicked(false);
+        setIdNum(null);
     }
 
     const postsFin = post.map(ig =>{ return <Post key={ig.id} title={ig.title} clicked={() => clickPostHandler(ig.id)} /> ;});
     return (
         <div className='Posts' >
-           {isClicked ? <Fullpost id={idNum} clickedFull={clickedFullPostHandler} /> : null }
-           {postsFin}
+           {isClicked ? <Fullpost id={idNum} clickedFull={clickedFullPostHandler} /> : postsFin }
+           
         </div>);
 }
 

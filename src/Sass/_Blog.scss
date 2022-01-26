@@ -27,7 +27,8 @@
           padding: 6px 12px;
           text-decoration: none;
           &:hover {
-            background-color: #111;}
+            background-color: #111;
+            border-radius: 10px;}
         }
       
 
@@ -36,5 +37,6 @@
 }
 .content {
     text-align: center;
+    margin-top: 20px;
 
 }
